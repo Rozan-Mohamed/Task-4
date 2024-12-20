@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-image: url(../imgs/pexels-gochrisgoxyz-1477166.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 130vh;
+    text-align: center;
+    overflow: auto;
+}
+
+.logo {
+    width: 12%;
+    height: auto;
+    margin: auto;
+    margin-top: 7px;
+    margin-bottom: 0px;
+}
+
+.imgs {
+    width: 100%;
+    height: auto;
+
+}
+
+
+.home {
+    padding: 5px 20px;
+    position: relative;
+    left: 200px;
+}
+
+.sections {
+    float: left;
+    width: 22%;
+    margin: 0 10px;
+    border-radius: 35px;
+    position: relative;
+    overflow: hidden;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+.textd {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.text {
+    float: left;
+    width: 50%;
+}
+
+.asale {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bsale {
+    color: gray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btn {
+    background-color: #4682B4;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: rgb(114, 186, 114);
+}
+
+.content {
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 35px;
+    opacity: 0;
+    transition: 0.8s;
+}
+
+.content:hover {
+    opacity: 1;
+
+
+}
+
+.content h3 {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 40px;
+    margin-top: 50px;
+}
+
+.content p {
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.content>* {
+    transform: translateY(100px);
+    transition: transform 0.8s;
+}
+
+.content:hover>* {
+    transform: translateY(0px);
+}
+
+.img1 {
+    overflow: hidden;
+    border-radius: 35px;
+    position: relative;
+    transition: transform 0.5s ease;
+
+}
+
+.img1 img {
+    transition: transform 0.5s ease;
+
+}
+
+.img1:hover img {
+    transform: scale(1.1);
+}
